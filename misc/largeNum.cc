@@ -33,7 +33,7 @@ int* LargeNum::sum(int size1, int size2,int* num1, int* num2, int& size){
   int remain=0; 
   int j=max(size1,size2)+1;//size of sum array
   int* sum = new int[j];//might have one extra 0 before real num
-  size=j;//changes value of size in callee function
+  size=j;//changes value of size in caller function
   sum[0]=0;
   int k=0;
   if(size1>size2){
