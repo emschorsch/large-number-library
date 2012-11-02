@@ -5,14 +5,14 @@
 
 using namespace std;
 int main(){
-  int in,max,rem,base;
+  int max,base;
   cout<<"enter what base: ";
   cin>>base;
   cout<<"enter "<<base<<" to what power: ";
   cin>>max;
   
   int sum[max*base+4];
-  int prod[200];//maybe use array of longs
+  //int prod[200];//maybe use array of longs
   long size=0;//applies to sum
   int* num1 = new int[max*base+4];
   int* num2 = new int[max*base+4];
